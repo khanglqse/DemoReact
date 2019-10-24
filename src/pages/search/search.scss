@@ -1,0 +1,12 @@
+.search-container{
+    text-align: left;
+    .title{
+        font-size: 1.7rem;
+    }
+    input{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
+    }
+}

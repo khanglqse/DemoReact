@@ -1,0 +1,40 @@
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .item{
+        flex-basis: 30%;
+        margin: 20px 0;
+    }
+}
+
+  .container {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    padding: 50px 30px;
+  } 
+  
+  .App-logo {
+    height: 40vmin;
+  }
+  
+  
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+    span{
+      font-size: 70px;
+      color: #a2a2a2;
+    }
+    button{
+        background: #784CC0;
+        color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        font-size: 30px;
+    }
+  }

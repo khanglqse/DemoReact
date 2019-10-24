@@ -1,0 +1,32 @@
+.dialog-header{
+    display: flex;
+    justify-content: space-between;
+}
+.box-info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 3px 5px;
+    .title{
+        font-size: 15px;
+    }
+    input,textarea{
+        border: none;
+        width: 100%;
+        &:focus{
+            outline: none;
+        }
+    }
+}
+.dialog-action{
+    display: flex;
+    align-self: center;
+    background: #784CC0;
+        color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        font-size: 30px;
+}

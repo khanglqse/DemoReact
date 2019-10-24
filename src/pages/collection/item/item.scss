@@ -1,0 +1,43 @@
+img{
+    width: 100%;
+    max-height: 250px;  
+}
+.item{
+    .item-info{
+        display: flex;
+        justify-content: space-between;
+        span{
+            font-size: 15px;
+        }
+    }
+    .detail{
+        .title{
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        span{
+            word-break: break-all;
+        }
+    }
+    .action{
+        display: flex;
+        margin-top: 10px;
+        button{
+            display: flex;
+            margin-right: 10px;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid gainsboro;
+            padding: 5px;
+            color: grey;
+            background: white;
+            border-radius: 3px;
+            &.w-100{
+                width: 100%;
+            }
+            &.red{
+                color:red
+            }
+        }
+    }
+}
