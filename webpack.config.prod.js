@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+var path = require('path');
 module.exports = {
     module: {
       rules: [
@@ -14,5 +16,9 @@ module.exports = {
         }
       ]
      
+     
+    },
+    output: {
+      path: path.resolve(__dirname, '/dist')
     }
   };
