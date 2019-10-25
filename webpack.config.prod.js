@@ -18,7 +18,13 @@ module.exports = {
      
      
     },
+    entry: './src/index.js',
     output: {
-      path: path.resolve(__dirname, '/dist')
+      path: path.resolve(__dirname, 'build'),
+      publicPath: '/',
+      filename: 'bundle.js'
+    },
+    devServer:{
+      contentBase: "./build"
     }
   };

@@ -22,11 +22,10 @@
     "redux": "^4.0.4",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
-    "styled-components": "^4.4.0",
-    "webpack-cli": "^3.3.9"
+    "styled-components": "^4.4.0"
   },
   "scripts": {
-    "dev": "webpack --mode development --env=dev",
+    "dev": "webpack-dev-server --mode development --env=dev",
     "build": "webpack --mode production --env=prod",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -52,6 +51,8 @@
   "devDependencies": {
     "gh-pages": "^2.1.1",
     "http-server": "^0.11.1",
-    "webpack": "^5.0.0-beta.1"
+    "webpack": "^5.0.0-beta.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
   }
 }
