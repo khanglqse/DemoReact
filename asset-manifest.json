@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DemoReact/static/css/main.cfb450b8.chunk.css",
-    "main.js": "/DemoReact/static/js/main.47ced997.chunk.js",
-    "main.js.map": "/DemoReact/static/js/main.47ced997.chunk.js.map",
+    "main.js": "/DemoReact/static/js/main.86d456b2.chunk.js",
+    "main.js.map": "/DemoReact/static/js/main.86d456b2.chunk.js.map",
     "runtime-main.js": "/DemoReact/static/js/runtime-main.b5df9a14.js",
     "runtime-main.js.map": "/DemoReact/static/js/runtime-main.b5df9a14.js.map",
     "static/js/2.d95d79ff.chunk.js": "/DemoReact/static/js/2.d95d79ff.chunk.js",
     "static/js/2.d95d79ff.chunk.js.map": "/DemoReact/static/js/2.d95d79ff.chunk.js.map",
     "index.html": "/DemoReact/index.html",
-    "precache-manifest.85e1800d6a7cd365400beb3b03dd64c6.js": "/DemoReact/precache-manifest.85e1800d6a7cd365400beb3b03dd64c6.js",
+    "precache-manifest.3f8c12c0b75f475386fe0cf6de4b1157.js": "/DemoReact/precache-manifest.3f8c12c0b75f475386fe0cf6de4b1157.js",
     "service-worker.js": "/DemoReact/service-worker.js",
     "static/css/main.cfb450b8.chunk.css.map": "/DemoReact/static/css/main.cfb450b8.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.b5df9a14.js",
     "static/js/2.d95d79ff.chunk.js",
     "static/css/main.cfb450b8.chunk.css",
-    "static/js/main.47ced997.chunk.js"
+    "static/js/main.86d456b2.chunk.js"
   ]
 }
